@@ -12,7 +12,7 @@ public class EmailController {
     @Autowired
     private EmailService emailService;
 
-    // Endpoint to trigger sending email
+    // Endpoint to trigger sending email.
     @GetMapping("/send-email")
     public String sendEmail(
             @RequestParam String to,
